@@ -1,0 +1,13 @@
+<div *ngIf="formData">
+  <p><span>First Name: </span>{{ formData.firstName }}</p>
+  <p><span>Last Name: </span>{{ formData.lastName }}</p>
+  <p><span>Mobile Number: </span>{{ formData.mobileNumber }}</p>
+  <p><span>Email: </span>{{ formData.email }}</p>
+  <p><span>Address Line 1: </span>{{ formData.address.addressLine1 }}</p>
+  <p><span>Address Line 2: </span>{{ formData.address.addressLine2 }}</p>
+  <p><span>Pincode: </span>{{ formData.address.pincode }}</p>
+  <p><span>State: </span>{{ formData.address.state }}</p>
+  <p><span>Country: </span>{{ formData.address.country }}</p>
+  <button (click)="edit()">No</button>
+  <button (click)="confirm()">Yes</button>
+</div>

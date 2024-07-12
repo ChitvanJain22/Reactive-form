@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "id": null,
+      "firstName": "chitvan",
+      "lastName": "jain",
+      "mobileNumber": "1234567890",
+      "email": "mail22chitvan@gmail.com",
+      "address": {
+        "addressLine1": "12345tfdfghbvc fgvbnb",
+        "addressLine2": "e4t",
+        "pincode": "201012",
+        "state": "uttdgcgcg",
+        "country": "ihuhchtc"
+      }
+    }
+  ]
+}

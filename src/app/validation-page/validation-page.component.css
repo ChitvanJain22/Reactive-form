@@ -1,0 +1,44 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  p span {
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:last-of-type {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  button:first-of-type {
+    background-color: #dc3545;
+    color: #fff;
+  }
